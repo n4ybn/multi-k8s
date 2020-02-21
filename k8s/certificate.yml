@@ -1,5 +1,5 @@
 apiVersion: certmanager.k8s.io/v1alpha1
-kind: Certficate
+kind: Certificate
 metadata:
     name: dupre-systems-tls
 spec:
