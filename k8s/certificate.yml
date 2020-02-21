@@ -1,0 +1,20 @@
+apiVersion: certmanager.k8s.io/v1alpha1
+kind: Certficate
+metadata:
+    name: dupre-systems-tls
+spec:
+    secretName: dupre-systems
+    isssuerRef:
+        name: letsencrypt-prod
+        kind: ClusterIssuer
+    commonName: dupre.systems
+    dnsNames:
+      - dupre.systems
+      - www.dupre.systems
+    acme:
+        config:
+          - http01:
+                ingressClass: nginx
+            domains:
+              - dupre.systems
+              - www.dupre.systems
