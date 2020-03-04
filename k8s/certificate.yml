@@ -1,0 +1,20 @@
+apiVersion: cert-manager.io/v1alpha2
+kind: Certificate
+metadata:
+    name: dupre-systems-tls
+spec:
+    secretName: dupre-systems
+    issuerRef:
+        name: letsencrypt-prod
+        kind: ClusterIssuer
+    commonName: dupre.systems
+    dnsNames:
+      - dupre.systems
+      - www.dupre.systems
+    acme:
+        config:
+          - http01:
+                ingressClass: nginx
+            domains:
+              - dupre.systems
+              - www.dupre.systems
