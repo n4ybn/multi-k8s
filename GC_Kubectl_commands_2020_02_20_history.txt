@@ -1,0 +1,80 @@
+    1  gcloud config set projecthistory
+    2  history
+    3  gcloud config set project multi-k8s-268715
+    4  gcloud config set compute/zone us-central1-a
+    5  gcloud container clusters get-credentials multi-clusters
+    6  gcloud config set project multi-k8s-268715
+    7  gcloud container clusters get-credentials multi-clusters
+    8  gcloud config set compute/zone us-central1-a
+    9  gcloud config set project multi-k8s-268715
+   10  [15~gcloud config set project mu~~~[2~
+   11  gcloud container clusters get-credentials multi-clusters
+   12  gcloud container clusters get-credentials multi-cluster --zone us-central1-a --project multi-k8s-268715
+   13  kubectl get pods
+   14  kubectl create secret generic pgpassword --from-literal PGPASSWORD=Sunfish8
+   15  curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 > get_helm.sh
+   16  chmod 700 get_helm.sh
+   17  ./get_helm.sh
+   18  helm repo add stable https://kubernetes-charts.storage.googleapis.com/
+   19  helm install my-nginx stable/nginx-ingress --set rbac.create=true 
+   20  ls
+   21  kubectl get namespaces
+   22  ls
+   23  ls -larth
+   24  cd /
+   25  ls
+   26  cd tmp
+   27  ls
+   28  mkdir /tmp/data
+   29  ls -larth
+   30  chown root:root data
+   31  sudo chown root:root data
+   32  ls -larth
+   33  kubectl get pods
+   34  kubectl delete pod postgres-deployment-786dbf77dc-fwnfj
+   35  kubectl get pods
+   36  kubectl log postgres-deployment-786dbf77dc-7r7c7
+   37  kubectl logs postgres-deployment-786dbf77dc-7r7c7
+   38  kubectl log postgres-deployment-786dbf77dc-7r7c7
+   39  kubectl logs postgres-deployment-786dbf77dc-7r7c7
+   40  kubectl get pods
+   41  ls
+   42  cd ..
+   43  ls
+   44  cd home
+   45  ls
+   46  cd david_dupre/
+   47  ls
+   48  cat get_helm.sh 
+   49  s
+   50  ls
+   51  ./get_helm.sh 
+   52  kubectl get pods
+   53  cat /dev
+   54  ls /dev
+   55  ls /dev/termination-log 
+   56  cat /dev/termination-log 
+   57  ls -larth /dev
+   58  llslkj
+   59  ls /var/lib/postgresql/data
+   60  ls /var/lib/postgresql
+   61  ls /var/lib/postgresql/9.6/
+   62  ls /var/lib/postgresql/9.6/main/
+   63  ku
+   64  kubectl get pods
+   65  kubectl delete pod postgres-deployment-786dbf77dc-7r7c7
+   66  kubectl get pods
+   67  kubectl delete pod postgres-deployment-6ddd74488b-dl5v4
+   68  kubectl get pods
+   69  kubectl logs postgres-deployment-786dbf77dc-6h7fl
+   70  kubectl exec -it  postgres-deployment-786dbf77dc-6h7fl -- /bin/bash
+   71  kubectl get pods
+   72  kubectl create secret generic pgpassword --from-literal PGPASSWORD=Sunfish8
+   73  kubectl get pods
+   74  clear
+   75  kubectl get pods
+   76  clear
+   77  kubectl get pods
+   78  history
+   79  history >history.txt
+kubectl create secret generic pgpassword --from-literal PGPASSWORD=Sunfish8
